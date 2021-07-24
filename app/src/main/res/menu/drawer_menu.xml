@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_profile"
+              android:icon="@drawable/ic_account"
+              android:title="Profil" />
+
+        <item android:id="@+id/nav_books"
+            android:icon="@drawable/ic_book"
+            android:title="Knjige" />
+
+        <item android:id="@+id/nav_basket"
+            android:icon="@drawable/ic_korpa"
+            android:title="Korpa" />
+
+        <!--<item android:id="@+id/nav_ordered"
+            android:icon="@drawable/ic_ordered"
+            android:title="Dosadasnje porudzbine" /> -->
+    </group>
+
+</menu>
